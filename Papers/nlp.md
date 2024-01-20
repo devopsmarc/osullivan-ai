@@ -67,14 +67,15 @@ NLP is a dynamic field replete with opportunities for innovation and improvement
 
 #### References
 
-[^1^]: <a href="https://www.sciencedirect.com/science/article/pii/S2095809919304928" style="font-size: 90%;">Progress in neural NLP: modeling, learning, and reasoning</a>
+[^1^]: [Progress in neural NLP: modeling, learning, and reasoning](https://www.sciencedirect.com/science/article/pii/S2095809919304928)
 
-[^2^]: <a href="https://www.jatit.org/volumes/Vol96No6/4Vol96No6.pdf" style="font-size: 90%;">A study on NLP applications and ambiguity problems</a>
+[^2^]: [A study on NLP applications and ambiguity problems](https://www.jatit.org/volumes/Vol96No6/4Vol96No6.pdf)
 
-[^3^]: <a href="https://www.sciencedirect.com/science/article/pii/S1532046415001501" style="font-size: 90%;">Challenges in clinical natural language processing for automated disorder normalization</a>
+[^3^]: [Challenges in clinical natural language processing for automated disorder normalization](https://www.sciencedirect.com/science/article/pii/S1532046415001501)
 
-[^4^]: <a href="https://link.springer.com/article/10.1007/s11042-022-13428-4" style="font-size: 90%;">Natural language processing: State of the art, current trends and challenges</a>
+[^4^]: [Natural language processing: State of the art, current trends and challenges](https://link.springer.com/article/10.1007/s11042-022-13428-4)
 
-[^5^]: <a href="https://academic.oup.com/jamia/article-abstract/18/5/540/829390" style="font-size: 90%;">Overcoming barriers to NLP for clinical text: the role of shared tasks and the need for additional creative solutions</a>
+[^5^]: [Overcoming barriers to NLP for clinical text: the role of shared tasks and the need for additional creative solutions](https://academic.oup.com/jamia/article-abstract/18/5/540/829390)
+
 
 
