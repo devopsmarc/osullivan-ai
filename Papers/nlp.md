@@ -44,6 +44,27 @@ Despite the progress that has been made in NLP, several challenges make it trick
 
 NLP is a dynamic field replete with opportunities for innovation and improvement. Despite its challenges, it remains at the forefront of driving change across industries by enabling more natural interactions between humans and machines. The relentless pursuit of researchers in overcoming these challenges promises an exciting future for NLP technology[^1^] [^2^] [^3^] [^4^] [^5^].
 
+#### BibTeX
+
+<p style="font-size: 0.7em; margin-top: -10px;">
+- - - </p>
+
+<p style="font-size: 0.7em; margin-top: -10px;">
+@misc{Collège O'Sullivan de Québec,</p>
+<p style="font-size: 0.7em; margin-top: -10px;">
+  author = {Marcello Barretto},</p>
+<p style="font-size: 0.7em; margin-top: -10px;">
+  title = {NLP, 2024},</p>
+<p style="font-size: 0.7em; margin-top: -10px;">
+  howpublished = "Collège O'Sullivan - e.Campus",</p>
+<p style="font-size: 0.7em; margin-top: -10px;">
+  year = {2024},</p>
+<p style="font-size: 0.7em; margin-top: -10px;">
+  note = "[GitHub Online; 420-T85-OQ]"}</p>
+
+<p style="font-size: 0.7em; margin-top: -10px;">
+- - - </p>
+
 #### References
 
 [^1^]: [Progress in neural NLP: modeling, learning, and reasoning](https://www.sciencedirect.com/science/article/pii/S2095809919304928)
@@ -52,25 +73,4 @@ NLP is a dynamic field replete with opportunities for innovation and improvement
 [^4^]: [Natural language processing: State of the art, current trends and challenges](https://link.springer.com/article/10.1007/s11042-022-13428-4)
 [^5^]: [Overcoming barriers to NLP for clinical text: the role of shared tasks and the need for additional creative solutions](https://academic.oup.com/jamia/article-abstract/18/5/540/829390)
 
-
-#### BibTeX
-
-<p style="font-size: 0.9em; margin-top: -10px;">
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
-
-<p style="font-size: 0.9em; margin-top: -10px;">
-@misc{Collège O'Sullivan de Québec,</p>
-<p style="font-size: 0.9em; margin-top: -10px;">
-  author = {Marcello Barretto},</p>
-<p style="font-size: 0.9em; margin-top: -10px;">
-  title = {NLP, 2024},</p>
-<p style="font-size: 0.9em; margin-top: -10px;">
-  howpublished = "Collège O'Sullivan - e.Campus",</p>
-<p style="font-size: 0.9em; margin-top: -10px;">
-  year = {2024},</p>
-<p style="font-size: 0.9em; margin-top: -10px;">
-  note = "[GitHub Online; 420-T85-OQ]"}</p>
-
-<p style="font-size: 0.9em; margin-top: -10px;">
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
 
