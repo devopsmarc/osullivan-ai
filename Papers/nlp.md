@@ -40,8 +40,6 @@ Despite the progress that has been made in NLP, several challenges make it trick
 
 #### IV. Conclusion
 
-#### IV. Conclusion
-
 NLP is a dynamic field replete with opportunities for innovation and improvement. Despite its challenges, it remains at the forefront of driving change across industries by enabling more natural interactions between humans and machines. The relentless pursuit of researchers in overcoming these challenges promises an exciting future for NLP technology[^1^] [^2^] [^3^] [^4^] [^5^].
 
 #### BibTeX
