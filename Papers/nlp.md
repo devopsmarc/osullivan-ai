@@ -41,8 +41,18 @@ Despite the progress that has been made in NLP, several challenges make it trick
 #### IV. Conclusion
 
 <p style="text-align:justify; font-size;">
-NLP is a dynamic field replete with opportunities for innovation and improvement. Despite its challenges, it remains at the forefront of driving change across industries by enabling more natural interactions between humans and machines. The relentless pursuit of researchers in overcoming these challenges promises an exciting future for NLP technology [^1^] [^2^] [^3^] [^4^] [^5^]. </p>
+NLP is a dynamic field replete with opportunities for innovation and improvement. Despite its challenges, it remains at the forefront of driving change across industries by enabling more natural interactions between humans and machines. The relentless pursuit of researchers in overcoming these challenges promises an exciting future for NLP technology[^1^] [^2^] [^3^] [^4^] [^5^].
 
+
+[^1^]: [Progress in neural NLP: modeling, learning, and reasoning](https://www.sciencedirect.com/science/article/pii/S2095809919304928)
+
+[^2^]: [A study on NLP applications and ambiguity problems](https://www.jatit.org/volumes/Vol96No6/4Vol96No6.pdf)
+
+[^3^]: [Challenges in clinical natural language processing for automated disorder normalization](https://www.sciencedirect.com/science/article/pii/S1532046415001501)
+
+[^4^]: [Natural language processing: State of the art, current trends and challenges](https://link.springer.com/article/10.1007/s11042-022-13428-4)
+
+[^5^]: [Overcoming barriers to NLP for clinical text: the role of shared tasks and the need for additional creative solutions](https://academic.oup.com/jamia/article-abstract/18/5/540/829390)
 
 #### BibTeX
 
@@ -64,18 +74,4 @@ NLP is a dynamic field replete with opportunities for innovation and improvement
 
 <p style="font-size: 0.9em; margin-top: -10px;">
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
-
-#### References
-
-[^1^]: [Progress in neural NLP: modeling, learning, and reasoning](https://www.sciencedirect.com/science/article/pii/S2095809919304928)
-
-[^2^]: [A study on NLP applications and ambiguity problems](https://www.jatit.org/volumes/Vol96No6/4Vol96No6.pdf)
-
-[^3^]: [Challenges in clinical natural language processing for automated disorder normalization](https://www.sciencedirect.com/science/article/pii/S1532046415001501)
-
-[^4^]: [Natural language processing: State of the art, current trends and challenges](https://link.springer.com/article/10.1007/s11042-022-13428-4)
-
-[^5^]: [Overcoming barriers to NLP for clinical text: the role of shared tasks and the need for additional creative solutions](https://academic.oup.com/jamia/article-abstract/18/5/540/829390)
-
-
 
