@@ -25,7 +25,7 @@ Pharmaceutical Research: Token classification recognition becomes particularly c
 
 #### 4. Conclusion
 
-In conclusion, transformer-based models have shown great promise in improving outcomes for tasks such as token classification. Despite some challenges, their use across various fields from social media content analysis to pharmaceutical research validates their potential and versatility [^1^] [^2^] [^3^] [^4^] [^5^].
+In conclusion, transformer-based models have shown great promise in improving outcomes for tasks such as token classification. Despite some challenges, their use across various fields from social media content analysis to pharmaceutical research validates their potential and versatility [^1^] [^2^] [^3^] [^4^].
 
 #### 5. BibTeX
 
