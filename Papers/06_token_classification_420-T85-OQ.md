@@ -1,7 +1,10 @@
-<h2 style="text-align:center;">NLP Token Classification (NER) model:</h2>
+<h2 style="text-align:center;">NLP Token Classification (NER) model: { dbmdz/bert-large-cased-finetuned-conll03-english }</h2>
 <p style="text-align:center;"><strong>M.Sc Marcello Barretto</strong></p>
 <p style="text-align:center; font-size: 0.9em; margin-top: -10px;">Collège O'Sullivan de Québec</p>
 <p style="text-align:center;font-size: 0.8em; margin-top: -10px;font-style:italic;">{mabarretto}@osullivan-quebec.qc.ca</p>
+
+![Text Classification Model](../Images/05_text_completion_420-T85-OQ.png)
+
 <h4 style="text-align:center; font-weight:bold;font-style:italic;">Abstract</h4>
 <p style="text-align:justify; font-size:0.8em; font-style:italic;">This paper explores the integration and effectiveness of transformer models in Token Classification (NER), an important aspect of NLP. Token classification involves classifying entities within text into distinct categories like names, organizations, or locations. The paper presents use cases in diverse fields: social media analysis, where the unique linguistic styles on platforms like Twitter demand advanced models; cyber threat intelligence, which requires adaptability to new terminologies; and pharmaceutical research, where accurate identification of chemical and protein entities is crucial. Despite their successes, transformer models face challenges, particularly in managing domain specificity, indicating a need for optimization across various domains. The conclusion underscores the transformative impact of these models in token classification, demonstrating their versatility and potential across a wide range of applications.</p>
 
