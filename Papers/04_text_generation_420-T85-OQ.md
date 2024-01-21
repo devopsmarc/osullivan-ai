@@ -1,7 +1,10 @@
-<h2 style="text-align:center;">NLP Text-Generation model:</h2>
+<h2 style="text-align:center;">NLP Text-Generation model: { gpt2 }</h2>
 <p style="text-align:center;"><strong>M.Sc Marcello Barretto</strong></p>
 <p style="text-align:center; font-size: 0.9em; margin-top: -10px;">Collège O'Sullivan de Québec</p>
 <p style="text-align:center;font-size: 0.8em; margin-top: -10px;font-style:italic;">{mabarretto}@osullivan-quebec.qc.ca</p>
+
+![Text Classification Model](../Images/04_text_generation_420-T85-OQ.png)
+
 <h4 style="text-align:center; font-weight:bold;font-style:italic;">Abstract</h4>
 <p style="text-align:justify; font-size:0.8em; font-style:italic;">This paper presents an examination of NLP and its application in text generation tasks, with a particular focus on the role of transformer models. NLP, a critical subfield of artificial intelligence, aims to bridge the gap between human communication and computer understanding. The advent of text generation within NLP has opened new avenues for machines to produce coherent and contextually relevant text. The paper explores diverse use cases of these models, such as improving customer service through more natural chatbot interactions, aiding in educational content creation, and providing medical recommendation services in healthcare. The conclusion emphasizes the transformative impact of NLP and transformer models in various sectors.</p>
 
