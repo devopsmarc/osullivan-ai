@@ -1,4 +1,5 @@
 # Installer les bibliothèques nécessaires pour la classification de texte
+
 # 'datasets' est pour charger et manipuler les jeux de données
 # 'evaluate' est pour évaluer les performances du modèle
 # 'transformers[sentencepiece]' est pour utiliser les modèles de transformers avec SentencePiece
@@ -30,7 +31,7 @@ from transformers import pipeline
 classifier = pipeline("sentiment-analysis",
                       model="distilbert-base-uncased-finetuned-sst-2-english")
 
-result = classifier("I've been waiting for a HuggingFace course my whole life.")
+result = classifier("I finally started my Artificial Intelligence course.")
 
 model = classifier.model
 
