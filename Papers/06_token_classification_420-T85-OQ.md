@@ -1,4 +1,4 @@
-<h2 style="text-align:center;">NLP Token Classification (NER) model: { dbmdz/bert-large-cased-finetuned-conll03-english }</h2>
+<h2 style="text-align:center;">NLP Token Classification (NER) model: {dbmdz/bert-large-cased-finetuned-conll03-english}</h2>
 <p style="text-align:center;"><strong>M.Sc Marcello Barretto</strong></p>
 <p style="text-align:center; font-size: 0.9em; margin-top: -10px;">Collège O'Sullivan de Québec</p>
 <p style="text-align:center;font-size: 0.8em; margin-top: -10px;font-style:italic;">{mabarretto}@osullivan-quebec.qc.ca</p>
