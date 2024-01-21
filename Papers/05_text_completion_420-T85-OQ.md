@@ -1,7 +1,10 @@
-<h2 style="text-align:center;">NLP Text-Completion model:</h2>
+<h2 style="text-align:center;">NLP Text Completion model: { distilroberta-base }</h2>
 <p style="text-align:center;"><strong>M.Sc Marcello Barretto</strong></p>
 <p style="text-align:center; font-size: 0.9em; margin-top: -10px;">Collège O'Sullivan de Québec</p>
 <p style="text-align:center;font-size: 0.8em; margin-top: -10px;font-style:italic;">{mabarretto}@osullivan-quebec.qc.ca</p>
+
+![Text Completion Model](../Images/05_text_completion_420-T85-OQ.png)
+
 <h4 style="text-align:center; font-weight:bold;font-style:italic;">Abstract</h4>
 <p style="text-align:justify; font-size:0.8em; font-style:italic;">This paper delves into the burgeoning field of Natural Language Processing (NLP) and its application in text-completion tasks using transformer models, highlighting their impact and potential across various domains. NLP technologies, particularly through text-completion or fill-mask applications, have started bridging the gap between human-like language understanding and machine execution. The paper discusses key use cases such as Large Language Models (LLMs) in autonomous vehicles, providing an enhanced and safer user experience, and models that facilitate effective interaction with complex databases for non-experts. The conclusion underscores the transformative potential of NLP text-completion technologies using transformers in making machine-human interactions more seamless and intuitive, as text-completion models continue to evolve and integrate into diverse sectors.</p>
 
