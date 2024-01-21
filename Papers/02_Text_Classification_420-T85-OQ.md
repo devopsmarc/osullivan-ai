@@ -1,7 +1,10 @@
-<h2 style="text-align:center;">NLP Text Classification:</h2>
+<h2 style="text-align:center;">NLP Text Classification model: { distilbert-base-uncased-finetuned-sst-2-english }</h2>
 <p style="text-align:center;"><strong>M.Sc Marcello Barretto</strong></p>
 <p style="text-align:center; font-size: 0.9em; margin-top: -10px;">Collège O'Sullivan de Québec</p>
 <p style="text-align:center;font-size: 0.8em; margin-top: -10px;font-style:italic;">{mabarretto}@osullivan-quebec.qc.ca</p>
+
+![Text Classification Model](../Images/02_text_classification_420-T85-OQ.png)
+
 <h4 style="text-align:center; font-weight:bold;font-style:italic;">Abstract</h4>
 <p style="text-align:justify; font-size:0.8em; font-style:italic;">This paper examines the impact of Transformer models in NLP, particularly in the context of text classification. Transformers, with their advanced self-attention mechanisms, have revolutionized the way textual data is processed, enabling more nuanced and contextually aware sentiment detection. The report explores various use cases such as text classification of internet memes and financial market forecasting, highlighting the versatility and problem-solving potential of these models. It discusses how transformers effectively resolve challenges like contextual understanding, ambiguity in language, and scalability in text classification. Concluding that transformer-based models play a critical role in advancing NLP and providing deeper insights into text classification.</p>
 
