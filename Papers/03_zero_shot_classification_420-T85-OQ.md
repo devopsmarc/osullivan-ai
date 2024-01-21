@@ -1,7 +1,10 @@
-<h2 style="text-align:center;">NLP Zero-shot Classification:</h2>
+<h2 style="text-align:center;">NLP Zero-shot Classification model: { facebook/bart-large-mnli }</h2>
 <p style="text-align:center;"><strong>M.Sc Marcello Barretto</strong></p>
 <p style="text-align:center; font-size: 0.9em; margin-top: -10px;">Collège O'Sullivan de Québec</p>
 <p style="text-align:center;font-size: 0.8em; margin-top: -10px;font-style:italic;">{mabarretto}@osullivan-quebec.qc.ca</p>
+
+![Text Classification Model](../Images/03_zero_shot_classification_420-T85-OQ.png)
+
 <h4 style="text-align:center; font-weight:bold;font-style:italic;">Abstract</h4>
 <p style="text-align:justify; font-size:0.8em; font-style:italic;">This paper delves into the innovative realm of zero-shot classification (ZSC) in NLP, focusing on its application via transformer models like BERT and XLM-R. ZSC represents a paradigm shift in machine learning, enabling models to classify content beyond their explicit training, thus breaking the conventional reliance on large labelled datasets. The paper explores diverse use cases, including social media data using knowledge graph embedding, automated abstract screening in healthcare, and requirements classification in software engineering. As ZSC continues to evolve, it promises even broader applications and more profound impacts on data processing and analysis.</p>
 
