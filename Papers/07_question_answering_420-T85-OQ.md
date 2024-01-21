@@ -11,7 +11,8 @@
 
 #### 2. Question Answering and Transformers
 
-<p style="text-align:justify; font-size;">Question answering systems have long been a topic of interest in computer science and AI - they aim to provide precise answers to user queries based on a given corpus of data. The advent of transformer models has revolutionized these systems by providing deeper context understanding and improved performance compared to their predecessors [^1^].
+<p style="text-align:justify; font-size;">
+Question answering systems have long been a topic of interest in computer science and AI - they aim to provide precise answers to user queries based on a given corpus of data. The advent of transformer models has revolutionized these systems by providing deeper context understanding and improved performance compared to their predecessors [^1^].
 
 Transformer models such as BERT leverage the concept of 'attention' to weigh the importance of different words in a sentence when providing an answer. This allows them to understand the context and semantics at a much more granular level [^4^]. These models are trained on large text corpora and fine-tuned for specific tasks such as QA.</p>
 
