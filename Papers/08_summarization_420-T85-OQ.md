@@ -1,7 +1,10 @@
-<h2 style="text-align:center;">NLP Summarization model:</h2>
+<h2 style="text-align:center;">NLP Summarization model: { sshleifer/distilbart-cnn-12-6 }</h2>
 <p style="text-align:center;"><strong>M.Sc Marcello Barretto</strong></p>
 <p style="text-align:center; font-size: 0.9em; margin-top: -10px;">Collège O'Sullivan de Québec</p>
 <p style="text-align:center;font-size: 0.8em; margin-top: -10px;font-style:italic;">{mabarretto}@osullivan-quebec.qc.ca</p>
+
+![Summarization Model](../Images/08_summarization_420-T85-OQ.png)
+
 <h4 style="text-align:center; font-weight:bold;font-style:italic;">Abstract</h4>
 <p style="text-align:justify; font-size:0.8em; font-style:italic;">This paper presents a detailed analysis of the impact of transformer models in NLP, with a specific focus on their application in document summarization. The paper explores the role of transformers in both extractive and abstractive summarization techniques. Transformers have shown remarkable proficiency in producing summaries that are not only concise but also maintain the essence, coherence of the original documents and can handle longer texts and contexts, which was a limitation in previous NLP methodologies. This advancement allows for better encoding of lengthy articles and the generation of summaries that are closer to human-generated abstracts in terms of n-gram copying statistics. The paper concludes by emphasizing the transformative role of transformers in NLP, particularly in enhancing the quality and applicability of document summarization.</p>
 
