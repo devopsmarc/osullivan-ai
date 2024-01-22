@@ -1,4 +1,5 @@
-# **Devenez un Expert en Intelligence Artificielle**
+<h1 align="center"><b>Devenez un Expert en Intelligence Artificielle</b></h1>
+
 
 ![BERT Encoder](Images/bert_encoder.png)
 
