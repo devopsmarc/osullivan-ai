@@ -1,7 +1,10 @@
-<h2 style="text-align:center;">NLP Question Answering model:</h2>
+<h2 style="text-align:center;">NLP Question Answering model: { distilbert-base-cased-distilled-squad }</h2>
 <p style="text-align:center;"><strong>M.Sc Marcello Barretto</strong></p>
 <p style="text-align:center; font-size: 0.9em; margin-top: -10px;">Collège O'Sullivan de Québec</p>
 <p style="text-align:center;font-size: 0.8em; margin-top: -10px;font-style:italic;">{mabarretto}@osullivan-quebec.qc.ca</p>
+
+![Question Answering Model](../Images/07_question_answering_420-T85-OQ.png)
+
 <h4 style="text-align:center; font-weight:bold;font-style:italic;">Abstract</h4>
 <p style="text-align:justify; font-size:0.8em; font-style:italic;">This paper provides an analysis of the use of transformer models in NLP for question-answering (QA) systems. The integration of transformer models, particularly BERT (Bidirectional Encoder Representations from Transformers), has revolutionized this domain. These models employ an 'attention' mechanism, enabling a nuanced understanding of word significance and context in sentences, thus enhancing the accuracy and relevance of answers. Notable applications include an MIT2 open source platform, which facilitates the creation of educational QA systems. The report highlights the problem-solving capabilities of these models, such as handling complex queries, reasoning over multiple information pieces, and addressing ambiguities in natural language. However, it also acknowledges the challenges, including the substantial computational resources required for model training. Overall, the paper underscores the transformative impact of transformer-based QA systems across various sectors and anticipates future advancements in overcoming current limitations, thus broadening their application scope.</p>
 
