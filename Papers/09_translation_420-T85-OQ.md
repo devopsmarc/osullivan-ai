@@ -1,7 +1,10 @@
-<h2 style="text-align:center;">NLP Translation model:</h2>
+<h2 style="text-align:center;">NLP Translation model: { Helsinki-NLP/opus-mt-fr-en }</h2>
 <p style="text-align:center;"><strong>M.Sc Marcello Barretto</strong></p>
 <p style="text-align:center; font-size: 0.9em; margin-top: -10px;">Collège O'Sullivan de Québec</p>
 <p style="text-align:center;font-size: 0.8em; margin-top: -10px;font-style:italic;">{mabarretto}@osullivan-quebec.qc.ca</p>
+
+![Translation Model](../Images/09_translation_420-T85-OQ.png)
+
 <h4 style="text-align:center; font-weight:bold;font-style:italic;">Abstract</h4>
 <p style="text-align:justify; font-size:0.8em; font-style:italic;">This paper delves into the transformative impact of Transformer models in NLP, underscoring their state-of-the-art performance in translation tasks. The paper highlights the diverse translation applications of Transformer models, showcasing their versatility in tasks ranging from text-based translation to supporting code-related tasks, serve as adept translators between natural language and code, streamlining complex conversions. The paper also addresses the problem-solving capabilities of Transformers, particularly in managing long text sequences and resolving linguistic ambiguities. In conclusion, Transformer models are presented as pivotal innovations in NLP translation, akin to the historical significance of the printing press, signifying a major leap forward in the field's capabilities and potential.</p>
 
