@@ -2,7 +2,7 @@
 # **Running case study - BIA AI Assistant**
 
 
-[![Opening Picture](../Images/02_running_case.png)
+![Opening Picture](../Images/02_running_case.png)
 
 1. why split into templates?
     - data efficiency 
