@@ -2,5 +2,5 @@
 
 ## [[[ Prioritizing projects ]]]
 
-- Assessing the feasibility and impact of your projects
+- Assessing the feasibility and impact of our AI projects
 
