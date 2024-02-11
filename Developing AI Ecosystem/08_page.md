@@ -64,7 +64,7 @@
             - Performance in the real world isn't great 
             - Revisit requirements (e.g., do we need to speak faster or more accurate?
 
-## <u>Cross-project Ecosystem</u> - stack
+## [[ <u>Cross-project Ecosystem</u> ]] - stack
 
 ### [ Team & Hiring ] - color box <<<>>>> [ Planning & project setup  ] - color box
 
