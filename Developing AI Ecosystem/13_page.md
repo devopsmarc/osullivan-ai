@@ -1,6 +1,6 @@
 #  What else do we need to know?
 
-## The economics of an AI ecosystem 
+## The economics of an AI ecosystem from +AI <----> AI+
 
 ![Prediction Machines](../Images/05_running_case.png) 
 

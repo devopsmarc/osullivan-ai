@@ -1,3 +1,7 @@
-# How to pick an AI Project and set up an AI Ecosystem for Success
+# How to set up an AI Ecosystem for Success
 
-![Opening Picture](../Images/01_Opening%20Picture.png)
+![Opening Picture](../Images/08_running_case.png)
+
+
+#### _"Les ordinateurs sont inutiles. Ils ne peuvent que donner des réponses."_
+» Pablo Picasso
