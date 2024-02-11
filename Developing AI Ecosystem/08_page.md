@@ -3,7 +3,7 @@
 ## [[[ Lifecyles ]]] - Blue Box
 - How to think about all of the activities in the ecosystem
 
-## [[ <u>Per-project ecosystem</u> ]] - stack
+## [[ <u>Per-project ecosystem</u> ]] - 2nd stack
 
 ### [ Planning & project setup ] - color box
 
@@ -64,7 +64,7 @@
             - Performance in the real world isn't great 
             - Revisit requirements (e.g., do we need to speak faster or more accurate?
 
-## [[ <u>Cross-project Ecosystem</u> ]] - stack
+## [[ <u>Cross-project Ecosystem</u> ]] - 1st stack
 
 ### [ Team & Hiring ] - color box <<<>>>> [ Planning & project setup  ] - color box
 

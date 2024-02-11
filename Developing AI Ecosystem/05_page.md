@@ -1,22 +1,22 @@
-# **Ecosystem overview**
+# Ecosystem overview
 
-## **Lifecycle**
+## [[[ Lifecycle ]]]
 - How to think about all of the activities in an
 AI project
 
-## **Prioritizing projects**
+## [[[ Prioritizing projects ]]]
 
 - Assessing the feasibility and impact of your projects
 
-## **Prototypes**
+## [[[ Prototypes ]]]
 
 - The main categories of AI projects, and the implications for the ecosystem
 
-## **Metrics**
+## [[[ Metrics ]]]
 
 - How to pick a single number to optimize
 
-## **Baselines**
+## [[[ Baselines ]]]
 
 - How to know if your AI model is performing
 
