@@ -1,5 +1,5 @@
 
-# **Running case study - BIA AI Assistant**
+# **Running case study - BIA AI Assistant** [[2]](https://hackernoon.com/from-pen-to-screen-a-step-by-step-guide-on-how-to-use-ai-to-create-educational-videos)
 
 
 ![Opening Picture](../Images/02_running_case.png)
@@ -12,3 +12,8 @@
 
 2. why not end-to-end?
    - state and control
+
+
+![Opening Picture](../Images/04_running_case.png)
+<small><i>[2] Hackernoon</i></small>
+   
