@@ -1,12 +1,12 @@
 # Ecosystem overview
 
+## [[[ Prioritizing predictions ]]]
+
+- Assessing the feasibility and impact of your projects
+
 ## [[[ Lifecycle ]]]
 - How to think about all of the activities in an
 AI project
-
-## [[[ Prioritizing projects ]]]
-
-- Assessing the feasibility and impact of your projects
 
 ## [[[ Prototypes ]]]
 

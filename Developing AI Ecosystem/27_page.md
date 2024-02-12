@@ -16,5 +16,5 @@
 
 ![Hackernoon website](../Images/04_running_case.png)
 
-[[2]](https://hackernoon.com/from-pen-to-screen-a-step-by-step-guide-on-how-to-use-ai-to-create-educational-videos)<small><i> Hackernoon</i></small>
+[[x]](https://hackernoon.com/from-pen-to-screen-a-step-by-step-guide-on-how-to-use-ai-to-create-educational-videos)<small><i> Hackernoon</i></small>
    

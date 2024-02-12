@@ -1,5 +1,5 @@
 # **Why do so many AI projects fail?**
-- Ecosystem should be seen as a research lab - you shouldn't aim for 100% success rate like in engineering
+- An AI Ecosystem should be seen as a research lab - we need to understand all the AI components before starting our experiments
 ## **But, many projects are doomed to fail:**
 - Technically infeasible or poorly scoped
 - Never make the leap from demo or PoC to production 
