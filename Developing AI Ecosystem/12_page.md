@@ -2,10 +2,10 @@
 
 ## A general ecosystem framework
 
-| Impact |      |        | Feasibility (e.g., cost) |
+| Impact |      |        | Faisabilité (par ex., coût) |
 | ------ | ---- | ------ | ----------------------- |
-| High   | (X)  |        | Low                     |
-| Low    |  |     (X)    | High                    |
+| Élevé  | (X)  |        | Faible                  |
+| Faible   |  |     (X)    | Élevé                   |
 |        |      |        |                         |
 
 ## Mindset for high-impact ecosystems
