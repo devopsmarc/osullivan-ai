@@ -4,4 +4,4 @@
 
 ![Spotify case study](../Images/23_running_case.png)
 
-[[16]](https://www.linkedin.com/pulse/spotifys-discover-weekly-how-machine-learning-finds-your-tawanghar)<small><i> Spotify AI Ecosystem - Case Study</i></small>
+[[17]](https://www.linkedin.com/pulse/spotifys-discover-weekly-how-machine-learning-finds-your-tawanghar)<small><i> Spotify AI Ecosystem - Case Study</i></small>
