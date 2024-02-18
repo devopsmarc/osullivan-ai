@@ -1,17 +1,31 @@
-<h1 align="center"><b>Devenez un Expert en Intelligence Artificielle</b></h1>
+# Full Stack Deep Learning Spring 2021 Labs
 
+Welcome!
 
-![BERT Encoder](Images/bert_encoder.png)
+As part of Full Stack Deep Learning 2021, we will incrementally develop a complete deep learning codebase to understand the content of handwritten paragraphs.
 
-<p style="font-size: larger;">
-L'intelligence artificielle, une technologie révolutionnaire, imite l'intelligence humaine dans des machines programmées pour réfléchir et agir à l'instar des êtres humains. Ce domaine novateur ouvre la porte à une efficacité accrue dans le monde des affaires et facilite de nombreux aspects de notre vie de tous les jours.
-</p>
+We will use the modern stack of PyTorch and PyTorch-Ligtning
 
-<p style="font-size: larger;">
-En rejoignant le programme d'Intelligence Artificielle du Collège O'Sullivan de Québec, vous plongerez au cœur d'un secteur en constante évolution. Vous découvrirez les vastes possibilités qu'offre l'IA tout en acquérant des compétences fondamentales, indispensables pour propulser votre carrière dans ce domaine passionnant.
-</p>
+We will use the main workhorses of DL today: CNNs, RNNs, and Transformers
 
-<p style="font-size: larger;">
-Au-delà des bases théoriques, ce programme vous offre une expérience pratique inestimable. Vous travaillerez sur des projets concrets, vous familiarisant ainsi avec les dernières innovations et applications de l'IA. Que ce soit dans le traitement automatique du langage naturel, l'apprentissage automatique ou les modèles de l'IA, vous serez à la pointe de la technologie et prêt à relever les défis de demain.
-</p>
+We will manage our experiments using what we believe to be the best tool for the job: Weights & Biases
 
+We will set up continuous integration system for our codebase using CircleCI
+
+We will package up the prediction system as a REST API using FastAPI, and deploy it as a Docker container on AWS Lambda.
+
+We will set up monitoring that alerts us when the incoming data distribution changes.
+
+Sequence:
+
+- [Lab Setup](setup/readme.md): Set up our computing environment.
+- [Lab 1: Intro](lab1/readme.md): Formulate problem, structure codebase, train an MLP for MNIST.
+- [Lab 2: CNNs](lab2/readme.md): Introduce EMNIST, generate synthetic handwritten lines, and train CNNs.
+- [Lab 3: RNNs](lab3/readme.md): Using CNN + LSTM with CTC loss for line text recognition.
+- [Lab 4: Transformers](lab4/readme.md): Using Transformers for line text recognition.
+- [Lab 5: Experiment Management](lab5/readme.md): Real handwriting data, Weights & Biases, and hyperparameter sweeps.
+- [Lab 6: Data Labeling](lab6/readme.md): Label our own handwriting data and properly store it.
+- [Lab 7: Paragraph Recognition](lab7/readme.md): Train and evaluate whole-paragraph recognition.
+- [Lab 8: Continuous Integration](lab8/readme.md): Add continuous linting and testing of our code.
+- [Lab 9: Deployment](lab9/readme.md): Run as a REST API locally, then in Docker, then put in production using AWS Lambda.
+- [Lab 10: Monitoring](lab10/readme.md): Set up monitoring that alerts us when the incoming data distribution changes.
