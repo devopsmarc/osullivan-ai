@@ -1,19 +1,20 @@
 # need to add following steps before running the code:
 # cd fsdl-text-recognizer-2021-labs
+
 # pip3 install boltons wandb pytorch_lightning==1.1.4 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 torchtext==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+# pip3 install codecarbon  
+
 # here too pythonpath to be set export PYTHONPATH=.:$PYTHONPATH
 # check with: echo $PYTHONPATH
 
-# now refer to the following code to run the code.
+# then refer to the following code to run the code.
 
 #%load_ext autoreload
 #%autoreload 2
 
 #%matplotlib inline
 
-# pip3 install codecarbon
 # before running training add carbon footprint metrics to produce ESG report.
-# use below information to find if carboncode is on path. If not follow the steps to add it to path.
 
 #import site
 #print(site.getsitepackages())
