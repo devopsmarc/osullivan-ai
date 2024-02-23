@@ -107,3 +107,24 @@ for i in range(num_samples_to_plot):
     print(sentence)  # Print the string
     plt.title(sentence)  # Set the title of the figure to the string
     plt.imshow(x.squeeze(), cmap='gray')  # Display the input data (an image) in the figure
+
+##############################################
+# sentences with max_length=34 and max_overlap=0.33
+##############################################
+
+args = argparse.Namespace(max_length=34, max_overlap=0.33)
+dataset = EMNISTLines(args)
+dataset.prepare_data()
+dataset.setup()
+print(dataset)
+
+num_samples_to_plot = 9
+
+for i in range(num_samples_to_plot):
+    plt.figure(figsize=(20, 20))
+    x, y = dataset.data_train[i]
+    sentence = convert_y_label_to_string(y) 
+    print(sentence)
+    plt.title(sentence)
+    plt.imshow(x.squeeze(), cmap='gray')
+    
