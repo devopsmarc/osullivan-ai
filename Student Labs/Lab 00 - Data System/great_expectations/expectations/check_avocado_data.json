@@ -1,0 +1,70 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "check_avocado_data",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "Date"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "region"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_match_strftime_format",
+      "kwargs": {
+        "column": "Date",
+        "strftime_format": "%Y-%m-%d"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "AveragePrice",
+        "max_value": 3.0,
+        "min_value": 0.5,
+        "mostly": 0.99
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "type",
+        "value_set": [
+          "conventional",
+          "organic"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "type",
+        "partition_object": {
+          "values": [
+            "conventional",
+            "organic"
+          ],
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "threshold": 0.1
+      },
+      "meta": {}
+    }
+  ],
+  "meta": {
+    "great_expectations_version": "0.13.5"
+  }
+}

@@ -1,0 +1,2134 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "data_dir.subdir_reader.avocado.BasicDatasetProfiler",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "max_value": null,
+        "min_value": 0
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "Unnamed: 0",
+        "type_list": [
+          "BIGINT",
+          "BYTEINT",
+          "DECIMAL",
+          "INT",
+          "INTEGER",
+          "IntegerType",
+          "LongType",
+          "SMALLINT",
+          "TINYINT",
+          "int",
+          "int16",
+          "int32",
+          "int64",
+          "int8",
+          "int_",
+          "integer",
+          "uint16",
+          "uint32",
+          "uint64",
+          "uint8"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "Unnamed: 0",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "Unnamed: 0",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Unnamed: 0",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "Unnamed: 0",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "Unnamed: 0",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "Date",
+        "type_list": [
+          "CHAR",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "TEXT",
+          "VARCHAR",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "Date",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "Date",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Date",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "Date",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_match_regex",
+      "kwargs": {
+        "column": "Date",
+        "regex": "^\\s+|\\s+$"
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "Date",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "AveragePrice",
+        "type_list": [
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float16",
+          "float32",
+          "float64",
+          "float_",
+          "number"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "AveragePrice",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "AveragePrice",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "AveragePrice",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "AveragePrice",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "AveragePrice",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "Total Volume",
+        "type_list": [
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float16",
+          "float32",
+          "float64",
+          "float_",
+          "number"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "Total Volume",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "Total Volume",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Total Volume",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "Total Volume",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "Total Volume",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "Total Volume",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Total Volume",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "Total Volume",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "column": "Total Volume",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "Total Volume",
+        "partition_object": null,
+        "threshold": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "4046",
+        "type_list": [
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float16",
+          "float32",
+          "float64",
+          "float_",
+          "number"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "4046",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "4046",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "4046",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "4046",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "4046",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "4046",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "4046",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "4046",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "column": "4046",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "4046",
+        "partition_object": null,
+        "threshold": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "4225",
+        "type_list": [
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float16",
+          "float32",
+          "float64",
+          "float_",
+          "number"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "4225",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "4225",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "4225",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "4225",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "4225",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "4225",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "4225",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "4225",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "column": "4225",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "4225",
+        "partition_object": null,
+        "threshold": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "4770",
+        "type_list": [
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float16",
+          "float32",
+          "float64",
+          "float_",
+          "number"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "4770",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "4770",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "4770",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "4770",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "4770",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "4770",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "4770",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "4770",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "column": "4770",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "4770",
+        "partition_object": null,
+        "threshold": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "Total Bags",
+        "type_list": [
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float16",
+          "float32",
+          "float64",
+          "float_",
+          "number"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "Total Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "Total Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Total Bags",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "Total Bags",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "Total Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "Total Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Total Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "Total Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "column": "Total Bags",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "Total Bags",
+        "partition_object": null,
+        "threshold": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "Small Bags",
+        "type_list": [
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float16",
+          "float32",
+          "float64",
+          "float_",
+          "number"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "Small Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "Small Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Small Bags",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "Small Bags",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "Small Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "Small Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Small Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "Small Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "column": "Small Bags",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "Small Bags",
+        "partition_object": null,
+        "threshold": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "Large Bags",
+        "type_list": [
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float16",
+          "float32",
+          "float64",
+          "float_",
+          "number"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "Large Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "Large Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Large Bags",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "Large Bags",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "Large Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "Large Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Large Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "Large Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "column": "Large Bags",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "Large Bags",
+        "partition_object": null,
+        "threshold": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "type_list": [
+          "DOUBLE",
+          "DOUBLE_PRECISION",
+          "DoubleType",
+          "FLOAT",
+          "FLOAT4",
+          "FLOAT8",
+          "FloatType",
+          "NUMERIC",
+          "float16",
+          "float32",
+          "float64",
+          "float_",
+          "number"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "XLarge Bags",
+        "partition_object": null,
+        "threshold": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "type",
+        "type_list": [
+          "CHAR",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "TEXT",
+          "VARCHAR",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "type",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "type",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "type",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "type",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_match_regex",
+      "kwargs": {
+        "column": "type",
+        "regex": "^\\s+|\\s+$"
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "type",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "year",
+        "type_list": [
+          "BIGINT",
+          "BYTEINT",
+          "DECIMAL",
+          "INT",
+          "INTEGER",
+          "IntegerType",
+          "LongType",
+          "SMALLINT",
+          "TINYINT",
+          "int",
+          "int16",
+          "int32",
+          "int64",
+          "int8",
+          "int_",
+          "integer",
+          "uint16",
+          "uint32",
+          "uint64",
+          "uint8"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "year",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "year",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "year",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "year",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "year",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "region",
+        "type_list": [
+          "CHAR",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "TEXT",
+          "VARCHAR",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "region",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+      "kwargs": {
+        "column": "region",
+        "max_value": null,
+        "min_value": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "region",
+        "mostly": 0.5
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "region",
+        "value_set": []
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_match_regex",
+      "kwargs": {
+        "column": "region",
+        "regex": "^\\s+|\\s+$"
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "region",
+        "value_set": null
+      },
+      "meta": {
+        "BasicDatasetProfiler": {
+          "confidence": "very low"
+        }
+      }
+    }
+  ],
+  "meta": {
+    "BasicDatasetProfiler": {
+      "batch_kwargs": {
+        "data_asset_name": "avocado",
+        "datasource": "data_dir",
+        "path": "/Volumes/Drive E/Python_Lab/tutorial-great-expectations/great_expectations/../data/avocado.csv"
+      },
+      "created_at": 1708961566.18575,
+      "created_by": "BasicDatasetProfiler"
+    },
+    "citations": [
+      {
+        "batch_kwargs": {
+          "data_asset_name": "avocado",
+          "datasource": "data_dir",
+          "path": "/Volumes/Drive E/Python_Lab/tutorial-great-expectations/great_expectations/../data/avocado.csv"
+        },
+        "batch_markers": {
+          "ge_load_time": "20240226T153245.899124Z",
+          "pandas_data_fingerprint": "9bc954aa566eaa4274cb680b2006c672"
+        },
+        "batch_parameters": null,
+        "citation_date": "20240226T153246.543044Z",
+        "comment": "BasicDatasetProfiler added a citation based on the current batch."
+      }
+    ],
+    "columns": {
+      "4046": {
+        "description": ""
+      },
+      "4225": {
+        "description": ""
+      },
+      "4770": {
+        "description": ""
+      },
+      "AveragePrice": {
+        "description": ""
+      },
+      "Date": {
+        "description": ""
+      },
+      "Large Bags": {
+        "description": ""
+      },
+      "Small Bags": {
+        "description": ""
+      },
+      "Total Bags": {
+        "description": ""
+      },
+      "Total Volume": {
+        "description": ""
+      },
+      "Unnamed: 0": {
+        "description": ""
+      },
+      "XLarge Bags": {
+        "description": ""
+      },
+      "region": {
+        "description": ""
+      },
+      "type": {
+        "description": ""
+      },
+      "year": {
+        "description": ""
+      }
+    },
+    "great_expectations_version": "0.13.5",
+    "notes": {
+      "content": [
+        "_To add additional notes, edit the <code>meta.notes.content</code> field in the appropriate Expectation json file._"
+      ],
+      "format": "markdown"
+    }
+  }
+}
